@@ -16,7 +16,7 @@
   		var mapOptions = {
     		zoom: 18,		
 			mapTypeId: google.maps.MapTypeId.ROADMAP,	
-    		center: new google.maps.LatLng(30.070825868829367, 31.349792436317355),
+    		center: new google.maps.LatLng(30.070221747850614, 31.34763582380882),
 			panControl: true,
   			zoomControl: true,
   			mapTypeControl: true,
@@ -43,7 +43,7 @@
 		//ADD NEW MARKER WITH LABEL
 		//=======================================================================================
 		var marker1 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(30.070825868829367, 31.349792436317355),
+       		position: new google.maps.LatLng(30.070221747850614, 31.34763582380882),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
